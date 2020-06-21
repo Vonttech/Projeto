@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 9" width="51" height="9">
+	<defs>
+		<image width="93" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAASCAYAAAA5f9J6AAABVElEQVRYR+WYPUoDQRhA3yC5gKBnCAQLG8Ey4CW8QYqQcu9g7SGsvICIeoMUErDxBIIXkPCFiTsSx911dne+jc5suX+P94oP5jP0uETkCFgAZ8ClMea9x++CP/3vXBNs6r1Yij8Ck/LRErjQDp8Ct1N0T/wF+ABOANXwqXBbR/fEV8AUWAP3wKlW+JS4raJXiRtj3ux4EZFDrfCpcYOjN4m7ca8RPkVuUPQQcY3wqXJ/jd5GPGb4lLmN0buIxwifOrc2eh/xPuFz4FZGjyHeJXwu3B/RY4q3CZ8T91t0DfGQ8Llxv6JrijeFBw4At8PZnnDdgavrXsj/rur8sC+u3U1tow8RvCb8MzACxoBK8D/G/dxNicgx8FBuC1XFvQBP5ZLM3s6B63ZTdzb6HLgeSnwnfAFcAa/AeeyRUjeaRGRfXLubugEKN15mwO1Q4jvhs+I67w3viAkiOI7lSAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="slider area">
+		<g id="subject area">
+			<g id="subject">
+				<g id="section title ">
+					<use id="shape" href="#img1" transform="matrix(0.548,0,0,0.5,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
