@@ -1,0 +1,481 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Poppins;
+    color: white;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background: #1e2e53;
+}
+.overFlow{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*HEADER*/
+
+#header-applyNow button {
+    border-radius: 3px;
+    background-color: #0eb582;
+    border: none;
+    color: white;
+    font-size: small;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+#header-menuPages li a {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+#header-social-menu li a {
+    padding: 0px 3px;
+}
+
+#header-social-menu i {
+    margin: auto 3px;
+    font-size: 12px;
+    color: white;
+}
+
+#header-form{
+    width: 100%;
+}
+
+#header-searchLogIn {
+    margin-left: 40px;
+    font-size: 0.8em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+#header-btnCategories {
+    margin-right: 10px;
+    border-radius: 3px;
+    background-color: #5b5e7e;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 12px 20px;
+}
+
+#header-inputSearch {
+    border-radius: 3px 0px 0px 3px;
+    background-color: #5b5e7e;
+    border: none;
+    padding: 5px;
+    color: white;
+    width: 50%;
+}
+
+#header-inputSearch::placeholder {
+    color: white;
+    font-size: 12px;
+}
+
+#header-btnSearch {
+    border-radius: 0px 3px 3px 0px;
+    background-color: #0eb582;
+    border: none;
+    font-size: small;
+    text-transform: capitalize;
+    color: white;
+    width: 100%;
+}
+
+#departament-menu {
+    background: #273c6b;
+}
+
+#list-departament li a {
+    padding-left: 36px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+#plusIcon i, #searchIcon i, #shopIcon i {
+    background: #83859e;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#plusIcon i {
+    margin-left: -30px;
+}
+
+/*SLIDER AREA*/
+
+#sliderArea {
+    background: url('imgs/library.jpg') no-repeat center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 110px;
+}
+
+#sliderArea-title {
+    font-size: 40px;
+}
+
+#startTrial {
+    border-radius: 3px;
+    background-color: #0eb582;
+    border: none;
+    font-size: small;
+    text-transform: capitalize;
+    color: white;
+}
+
+#viewCourses {
+    border-radius: 3px;
+    background-color: white;
+    border: none;
+    font-size: small;
+    text-transform: capitalize;
+    color: #0eb582;
+}
+
+/*COURSES AREA*/
+
+#coursesArea {
+    background: url('imgs/about\ area.png') no-repeat center;
+    background-size: 100%;
+}
+
+.courseName {
+    font-size: x-small;
+}
+
+#courseDashboard {
+    top: -80px;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
+#courseDashboard p {
+    color: #0eb582;
+}
+
+#catalog .item {
+    margin: 5px;
+    border: 1px solid #0eb5833f;
+}
+
+#catalog p {
+    color: black;
+    font-size: xx-small;
+}
+
+#catalog i {
+    color: #0eb582;
+    font-size: xx-large;
+    padding-top: 5px;
+}
+
+.iconFont {
+    font-size: xx-small;
+    padding: 3px;
+}
+
+.iconFont span {
+    font-family: "poppins";
+}
+
+.alignBottom{
+    margin-top: 80px;
+}
+
+.tutorial-catalog p {
+    font-size: small;
+}
+
+.tutorial-catalog .profileName p {
+    font-size: x-small;
+}
+
+.profile-tutorialAvatar {
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #0eb582;
+}
+
+.tutorial-menuIcon {
+    color: #0eb582;
+}
+
+.tutorialDesc p {
+    font-size: x-small;
+}
+
+ul {
+    color: #0eb582;
+}
+
+.tutorial-catalog ul li p {
+    font-size: x-small;
+}
+
+#networking {
+    background: url('imgs/1.jpg') no-repeat center;
+    background-size: cover;
+    height: 130px;
+}
+
+#music {
+    background: url('imgs/2.jpg') no-repeat center;
+    background-size: cover;
+    height: 130px;
+}
+
+#progressImg {
+    width: 220px;
+    height: 130px;
+    opacity: 0.8;
+}
+
+#mathematics {
+    background: url('imgs/3.jpg') no-repeat center;
+    background-size: cover;
+    height: 130px;
+}
+
+#fashion {
+    background: url('imgs/4.jpg') no-repeat center;
+    background-size: cover;
+    height: 130px;
+}
+
+#standingLuxury {
+    background: url('imgs/5.jpg') no-repeat center;
+    background-size: cover;
+    height: 130px;
+}
+
+#bussines {
+    background: url('imgs/6.jpg') no-repeat center;
+    background-size: cover;
+    height: 130px;
+}
+
+/*About area*/
+
+#aboutArea {
+    background: url('imgs/aboutUs.svg') no-repeat center;
+}
+
+#aboutUs-p {
+    margin-left: 30px;
+}
+
+#tustorDesc {
+    margin-left: 270px;
+    font-size: 10px;
+}
+
+#tustorPhone {
+    margin-left: 290px;
+}
+
+#contact {
+    margin-left: 290px;
+    border-radius: 3px;
+    background-color: #0eb582;
+    border: none;
+    font-size: small;
+    text-transform: capitalize;
+    color: white;
+}
+
+#aboutVideo {
+    background: url('imgs/library.jpg') no-repeat center;
+    background-size: cover;
+    transform: skew(10deg);
+    width: 70%;
+    margin-top: -100px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+#player {
+    font-size: xx-large;
+}
+
+/*TEAM AREA*/
+
+#membersArea p {
+    color: #0eb582;
+}
+
+.card-body h5 {
+    font-size: 12px;
+}
+
+.card i {
+    color: #0eb582;
+    padding: 5px;
+    background: #d5e2dee3;
+    border-radius: 3px;
+}
+
+/*UPCOMING AREA*/
+
+#upcomingArea {
+    background: url('imgs/upcoming\ \(2\).svg') no-repeat center;
+    background-size: cover;
+}
+
+#upcomingArea p {
+    color: #0eb582;
+}
+
+#card-upcomingEvent h2 {
+    font-size: 25px;
+}
+
+#card-upcomingEvent-img {
+    width: 200px;
+    background: url('imgs/7.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#card-upcomingEvent ul {
+    list-style: disc;
+}
+
+#card-upcomingEvent ul li {
+    margin-right: 10px;
+}
+
+#card-upcomingEvent ul li a {
+    padding-left: 0px;
+    color: #0eb582;
+}
+
+#card-upcomingEvent button {
+    background: #c2e7dd;
+    color: #0eb582;
+    font-weight: bold;
+}
+
+#leftArrow i {
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    background: #0eb582;
+    border: #0eb582 1px solid;
+    padding: 2px;
+}
+
+#rightArrow i {
+    border-radius: 20px;
+    color: #0eb582;
+    font-size: 30px;
+    background: white;
+    padding: 2px;
+}
+
+/*NEWS AREA*/
+
+#newsArea p {
+    color: #0eb582;
+}
+
+.leftArrow i {
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    font-size: 30px;
+    background: #0eb582;
+    border: #0eb582 1px solid;
+    padding: 2px;
+}
+
+.rightArrow i {
+    border-radius: 20px;
+    color: #0eb582;
+    font-size: 30px;
+    padding: 2px;
+}
+
+#newsArea .content-card {
+    padding: 5px;
+}
+
+#newsArea ul {
+    list-style: disc;
+    margin-left: 8px;
+}
+
+#newsArea ul li {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+#newsArea ul li p {
+    font-size: x-small;
+    padding: 0px;
+    color: #0eb582;
+}
+
+#newsArea button {
+    background: #c2e7dd;
+    color: #0eb582;
+    font-weight: bold;
+    margin: auto auto 10px 10px;
+    font-size: x-small;
+}
+
+#newsArea button.active {
+    background: #0eb582;
+    color: white;
+    font-weight: bold;
+    margin: auto auto 10px 10px;
+    font-size: x-small;
+}
+
+#newsArea #activeImage {
+    background: url('imgs/8.jpg') no-repeat;
+    background-size: cover;
+    height: 111px;
+    width: 198px;
+}
+
+#newsArea #activeImage-avatar {
+    height: 30px;
+    border-radius: 30px;
+}
+
+/*FOOTER*/
+
+#footer {
+    background: #1e2e53;
+    font-size: xx-small;
+    color: rgb(185, 185, 185);
+}
+
+#logoArea {
+    margin-top: -50px;
+}
+
+#footer h5 {
+    font-size: small;
+    color: white;
+}
+
+#footer ul li p {
+    color: rgb(185, 185, 185);
+    margin: 0px;
+}

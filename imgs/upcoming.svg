@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2285 2558" width="2285" height="2558">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.102;fill: none;stroke: #0eb582;stroke-width: 150 } 
+		.shp1 { fill: #f8fafc } 
+	</style>
+	<g id="footer area">
+		<g id="bg shape">
+			<g id="shape">
+				<path id="shape" class="shp0" d="M417.25 743.66C647.14 743.66 833.5 929.98 833.5 1159.83C833.5 1389.67 647.14 1576 417.25 1576C187.36 1576 1 1389.67 1 1159.83C1 929.98 187.36 743.66 417.25 743.66Z" />
+				<path id="shape" class="shp0" d="M1867.75 2C2097.64 2 2284 188.33 2284 418.17C2284 648.02 2097.64 834.34 1867.75 834.34C1637.86 834.34 1451.5 648.02 1451.5 418.17C1451.5 188.33 1637.86 2 1867.75 2Z" />
+			</g>
+			<path id="shape" class="shp1" d="M189 1358L2109 1358L2109 2557L189 2557L189 1358Z" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" width="260" height="180">
+	<defs>
+		<image width="75" height="75" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-width: 15 } 
+		.txt1 { font-size: 18px;line-height: 34px;fill: #ffffff;font-family: "Poppins-Bold";text-anchor: middle } 
+	</style>
+	<g id="courses area">
+		<g id="courses">
+			<g id="skill">
+				<path id="shape" class="shp0" d="M134.5 50C157.42 50 176 68.58 176 91.5C176 114.42 157.42 133 134.5 133C111.58 133 93 114.42 93 91.5C93 68.58 111.58 50 134.5 50Z" />
+				<use id="shape" href="#img1" x="97" y="54" />
+				<text id="80%" style="transform: matrix(1,0,0,1,134,98)" >
+					<tspan x="0" y="0" class="txt1">80%</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>
