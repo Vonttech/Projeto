@@ -311,15 +311,37 @@ ul {
     color: #0eb582;
 }
 
+#activeTeacher {
+    background: url('imgs/professor2.jpg') no-repeat center;
+    background-size: cover;
+    height: 131px;
+    width: 198px;
+}
+
+#labelTeachers {
+    background: #0eb582;
+    border-radius: 5px;
+    
+    padding: ;
+}
+
 .card-body h5 {
     font-size: 12px;
+}
+
+.card i.iconActive {
+    background: #0ee9a7;
 }
 
 .card i {
     color: #0eb582;
     padding: 5px;
-    background: #d5e2dee3;
+    background: #eef0efe3;
     border-radius: 3px;
+}
+
+.iconActive {
+    background: #0eb582;
 }
 
 /*UPCOMING AREA*/
