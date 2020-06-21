@@ -17,7 +17,8 @@ a {
 .header {
     background: #1e2e53;
 }
-.overFlow{
+
+.overFlow {
     margin: 0px;
     padding: 0px;
 }
@@ -49,7 +50,7 @@ a {
     color: white;
 }
 
-#header-form{
+#header-form {
     width: 100%;
 }
 
@@ -193,7 +194,7 @@ a {
     font-family: "poppins";
 }
 
-.alignBottom{
+.alignBottom {
     margin-top: 80px;
 }
 
@@ -275,21 +276,13 @@ ul {
     background: url('imgs/aboutUs.svg') no-repeat center;
 }
 
-#aboutUs-p {
-    margin-left: 30px;
-}
+#aboutUs-p {}
 
 #tustorDesc {
-    margin-left: 270px;
     font-size: 10px;
 }
 
-#tustorPhone {
-    margin-left: 290px;
-}
-
 #contact {
-    margin-left: 290px;
     border-radius: 3px;
     background-color: #0eb582;
     border: none;
@@ -303,10 +296,9 @@ ul {
     background-size: cover;
     transform: skew(10deg);
     width: 70%;
-    margin-top: -100px;
-    height: 400px;
+    margin-top: -90px;
+    height: 70%;
     border-radius: 10px;
-    margin-right: 0px;
 }
 
 #player {
