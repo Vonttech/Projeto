@@ -25,12 +25,41 @@
 
 <body>
     <header class="header">
+        <div class="row">
+            <div id="header-applyNow" class="col-4 d-flex justify-content-end align-items-center">
+                <button>apply now</button>
+            </div>
+
+
+            <nav class="navbar navbar-expand-lg col">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-item nav-link" href="#">Home</a>
+                        <a class="nav-item nav-link" href="#">about</a>
+                        <a class="nav-item nav-link" href="#">courses</a>
+                        <a class="nav-item nav-link" href="#">pages</a>
+                        <a class="nav-item nav-link" href="#">blog</a>
+                        <a class="nav-item nav-link" href="#">contact</a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--ANTIGO HEADER
         <div class="row pt-3 pb-3 m-0">
             <div id="header-applyNow" class="col-4 d-flex justify-content-end align-items-center">
                 <button>apply now</button>
             </div>
 
-            <!--Menu pages-->
+            <--Menu pages
             <div id="header-menuPages" class="col-5">
                 <ul class="nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
@@ -74,6 +103,7 @@
                 </ul>
             </div>
         </div>
+    -->
 
         <!--SEARCH AREA-->
         <div class="row border-top border-dark m-0 pt-3 pb-3">
@@ -81,12 +111,18 @@
                 <h3 class="font-weight-bold">Eusitor</h3>
             </div>
 
+            <!--IDS 
+                     id="header-inputSearch"
+                     id="header-searchLogIn"
+                     id="header-btnCategories"
+                     id="header-btnSearch"
+                -->
             <div class="col d-flex justify-content-start align-items-center">
                 <form class="form-inline">
-                    <div id="header-form" class="form-group mb-0">
-                        <label id="header-searchLogIn" for="" class="mr-4">log in</label>
+                    <div class="form-group mb-0">
+                        <label for="" class="mr-4 text-capitalize">log in</label>
                         <button id="header-btnCategories" type="button" class="btn">categories</button>
-                        <div class="input-group">
+                        <div class="input-group mt-1">
                             <input id="header-inputSearch" type="text" class="form-control" placeholder="Keyword Search"
                                 aria-label="Recipient's username" aria-describedby="button-addon2">
                             <div class="input-group-append">
@@ -100,9 +136,14 @@
         </div>
 
         <!--Departament menu-->
+        <!-- IDS
+            id="plusIcon"
+            id="searchIcon"
+            id="shopIcon"
+        -->
         <div id="departament-menu" class="row pt-3 pb-3 pl-0 pr-0 m-0">
-            <div class="col">
-                <ul id="list-departament" class="nav justify-content-center">
+            <div class="col-8 d-flex justify-content-end">
+                <ul id="list-departament" class="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">development</a>
                     </li>
@@ -116,13 +157,18 @@
                         <a class="nav-link" href="#">it & software</a>
                     </li>
                     <li class="nav-item">
-                        <a id="plusIcon" class="nav-link" href="#"><i class="fas fa-plus"></i></a>
+                        <a class="nav-link" href="#"><i class="fas fa-plus"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul class="nav justify-content-start">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a id="searchIcon" class="nav-link" href="#"><i class="fas fa-search"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="shopIcon" class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
                     </li>
                 </ul>
             </div>
@@ -131,61 +177,80 @@
 
     <!--SLIDER AREA-->
     <section id="sliderArea" class="">
+        <!--
         <div class="row m-0">
-            <div class="offset-3">
+            <div class=" col offset-2">
                 <p>Our Great Education</p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col offset-3">
-                <img src="imgs/top.svg" alt="" class="img-fluid" style="width: 50px;" srcset="">
+            <div class="col offset-2 pl-4">
+                <img src="imgs/top.svg" alt="" class="img-fluid" style="width: 40px;" srcset="">
             </div>
         </div>
-
+-->
         <div class="row m-0">
-            <div class="offset-3">
-                <h1 id="sliderArea-title">Graduate Education <br> for University</h1>
+            <div class="col offset-2 p-0">
+                <blockquote class="blockquote">
+                    <img src="imgs/Educationa.png" alt="" class="img-fluid" style=" width: 500px;" srcset="">
+                </blockquote>
             </div>
         </div>
-
         <div class="row m-0">
-            <div class="offset-3">
-                <p>
-                    We believe everyone has the capacity to be creative turitor people <br> develop their own potentials
-                </p>
-            </div>
-        </div>
-
-        <div class="row m-0">
-            <div class="offset-3">
-                <button id="startTrial" type="button" class="btn">Start trial</button>
+            <div class="offset-2">
+                <button id="startTrial" type="button" class="btn ml-3">Start trial</button>
             </div>
 
-            <div class="col">
+            <div class="col d-flex justify-content-start">
                 <button id="viewCourses" type="button" class="btn">View courses</button>
             </div>
         </div>
+        <!--
+        <div class="row m-0">
+            <div class="col offset-2">
+                <blockquote class="blockquote text-left">
+                    <p id="sliderArea-desc" class="mb-2">
+                        We believe everyone has the capacity to be creative turitor people <br> develop their own
+                        potentials
+                    </p>
+                    <footer class="">
+                        <div class="row m-0">
+                            <div class="">
+                                <button id="startTrial" type="button" class="btn">Start trial</button>
+                            </div>
+
+                            <div class="col d-flex justify-content-start">
+                                <button id="viewCourses" type="button" class="btn">View courses</button>
+                            </div>
+                        </div>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+-->
 
     </section>
 
     <!--COURSES AREA-->
     <section id="coursesArea" class="text-dark">
-        <div id="courseDashboard" class="col-6 offset-3 bg-white">
+        <div id="courseDashboard" class="col-8 offset-2 bg-white">
             <div class="row">
                 <div class="col">
                     <div class="d-flex justify-content-center">
                         <div>
                             <p class="font-weight-bold mb-0">Our Subject</p>
                             <img src="imgs/section_title.png" class="img-fluid"
-                            style="height: 40px; width: 100px; margin: -10px 0px -10px 0px; " alt="">
-                    
+                                style="height: 40px; width: 100px; margin: -10px 0px -10px 0px; " alt="">
+
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col d-flex justify-content-center pl-5 pr-5">
-                            <h3 class="font-weight-bold">All the benefits you get in our <br> education program!</h3>
+                            <blockquote class="blockquote text-center">
+                                <h3 class="font-weight-bold">All the benefits you get in our education program!</h3>
+                            </blockquote>
                         </div>
                     </div>
 
@@ -298,7 +363,10 @@
 
                     <div class="row">
                         <div class="col d-flex justify-content-center pl-5 pr-5">
-                            <h3 class="font-weight-bold">Explore popular courses</h3>
+                            <blockquote class="blockquote text-center">
+                                <h3 class="font-weight-bold">Explore popular courses</h3>
+                            </blockquote>
+
                         </div>
                     </div>
 
@@ -602,9 +670,9 @@
     <!--ABOUT US AREA-->
     <section id="aboutArea" class="pt-5 pb-5">
         <div class="row">
-            <div class="col offset-2">
+            <div id="aboutUs-leftCol" class="col offset-2">
                 <div class="row m-0">
-                    <div class="col offset-3">
+                    <div class="col">
                         <div>
                             <p id="aboutUs-p" class="mb-0">About Us</p>
                             <img src="imgs/top.svg" alt="" class="img-fluid mt-0" style="width: 30px; height: 10px;"
@@ -614,43 +682,44 @@
                 </div>
 
                 <div class="row m-0">
-                    <div class="col offset-3">
-                        <h4>
-                            Tustor one & only mission is <br>
-                            to extend your knowledge <br> base?
-                        </h4>
+                    <div class="col ">
+                        <blockquote class="blockquote">
+                            <h4 class="mb-0">
+                                Tustor one & only mission is
+                                to extend your knowledge base?
+                            </h4>
+                        </blockquote>
+
                     </div>
                 </div>
 
                 <div class="row m-0">
-                    <div class="col offset-3">
-                        <p id="tustorDesc">
-                            Tustor has a first rate academic program, a fully qualified. <br>
-                            With over 50 years of experience teaching English around the <br>
-                            world, we know that no two.
-                        </p>
+                    <div class="col">
+                        <blockquote class="blockquote">
+                            <p id="tustorDesc" class="mb-0">
+                                Tustor has a first rate academic program, a fully qualified.
+                                With over 50 years of experience teaching English around the
+                                world, we know that no two.
+                            </p>
+                        </blockquote>
                     </div>
                 </div>
 
                 <div class="row m-0">
-                    <div class="col offset-3">
-                        <p id="tustorPhone">
+                    <div class="col">
+                        <p id="tustorDesc" class="mb-0 font-weight-bold">
                             Call Us +1866 561 7951
                         </p>
+                        <footer class="blockquote mt-3">
+                            <button id="Contact" type="button" class="btn">Contact Now</button>
+                        </footer>
                     </div>
                 </div>
-
-                <div class="row m-0">
-                    <div class="col offset-3">
-                        <button id="Contact" type="button" class="btn">Contact Now</button>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="col">
+            <div id="" class="col-md pl-5 ml-5">
                 <div id="aboutVideo" class="d-flex justify-content-center align-items-center">
-                    <i id="player" class="far fa-play-circle"></i>
+                    <img src="imgs/player.png" alt="" class="img-fluid" style="width: 150px;" srcset="">
                 </div>
             </div>
         </div>
@@ -675,7 +744,7 @@
         </div>
 
         <div class="row d-flex justify-content-center overFlow">
-            <div class="col-md-2  pl-0 pr-0">
+            <div class="col-md-2 mt-1  pl-0 pr-0 d-flex justify-content-center">
                 <div class="card" style="width: 200px">
                     <img src="imgs/professor.jpg" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center pb-0">
@@ -691,7 +760,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2  pl-0 pr-0">
+            <div class="col-md-2 mt-1  pl-0 pr-0 d-flex justify-content-center">
                 <div class="card" style="width: 200px">
                     <div id="activeTeacher" class="card-img-top">
                         <div class="row">
@@ -714,7 +783,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2  pl-0 pr-0">
+            <div class="col-md-2 mt-1 pl-0 pr-0 d-flex justify-content-center">
                 <div class="card" style="width: 200px">
                     <img src="imgs/professor3.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body d-flex justify-content-center pb-0">
@@ -748,7 +817,10 @@
 
         <div class="row overFlow">
             <div class="col-6 offset-3 d-flex justify-content-center">
-                <h4 class="text-dark font-weight-bold">We are optimists who love to work together</h4>
+                <blockquote class="blockquote text-center">
+                    <h4 class="mb-0 text-dark font-weight-bold">We are optimists who love to work together</h4>
+                </blockquote>
+
             </div>
         </div>
 
@@ -831,15 +903,19 @@
 
         <div class="row">
             <div class="col offset-3 d-flex justify-content-center">
-                <h4 class="text-dark font-weight-bold">ALL the benefits you get in our latest news & blog</h4>
+                <blockquote class="blockquote">
+                    <h4 class="text-dark font-weight-bold text-left">ALL the benefits you get in our latest news & blog
+                    </h4>
+                </blockquote>
+
             </div>
 
             <div class="col d-flex justify-content-start ">
                 <div class="row">
-                    <div id="" class="col d-flex justify-content-end leftArrow">
+                    <div id="" class="col d-flex justify-content-end pb-4 align-items-end leftArrow">
                         <i class="fas fa-arrow-circle-left"></i>
                     </div>
-                    <div id="" class="col d-flex justify-content-start rightArrow">
+                    <div id="" class="col d-flex justify-content-start pb-4 align-items-end  rightArrow">
                         <i class="fas fa-arrow-circle-right"></i>
                     </div>
                 </div>
@@ -848,7 +924,7 @@
         </div>
 
         <div class="row d-flex justify-content-center overFlow">
-            <div class="col-md-2  pl-0 pr-0">
+            <div class="col-md-2  pl-0 pr-0 d-flex justify-content-center">
                 <div class="card" style="width: 200px">
                     <img src="imgs/11.jpg" class="card-img-top" style="height: 111px" alt="...">
                     <div class="card-body d-flex justify-content-center pb-0">
@@ -877,7 +953,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2  pl-0 pr-0">
+            <div class="col-md-2  pl-0 pr-0 d-flex justify-content-center">
                 <div class="card" style="width: 200px">
                     <div id="activeImage" class="card-img-top ">
                         <div class="row">
@@ -921,7 +997,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2  pl-0 pr-0">
+            <div class="col-md-2  pl-0 pr-0 d-flex justify-content-center">
                 <div class="card" style="width: 200px">
                     <img src="imgs/9.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body d-flex justify-content-center pb-0">
@@ -959,83 +1035,87 @@
         </div>
 
         <div class="row overFlow">
-            <div class="col d-flex justify-content-end">
-                <div>
-                    <h5>Address</h5>
-                    <p>demo@gmail.com</p>
-                    <p>123 Fifth Floor East 26th Street.</p>
-                    <p>New York, NY 10011</p>
-                    <p style="color: #0eb582;"> Get Direction</p>
-                </div>
-            </div>
-            <div class="col-2 ml-3 mr-3 d-flex justify-content-center">
-                <div>
-                    <h5>University</h5>
-                    <ul>
-                        <li>
-                            <p>
-                                Computer Science
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Data Science
-                            </p>
-                        </li>
+            <div class="col-6 offset-3">
+                <div class="row">
+                    <div class="col-sm">
+                        <div>
+                            <h5>Address</h5>
+                            <p>demo@gmail.com</p>
+                            <p>123 Fifth Floor East 26th Street.</p>
+                            <p>New York, NY 10011</p>
+                            <p style="color: #0eb582;"> Get Direction</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <h5>University</h5>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Computer Science
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Data Science
+                                    </p>
+                                </li>
 
-                        <li>
-                            <p>
-                                Mathematics
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Bussiness Study
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Architecture
-                            </p>
-                        </li>
-                    </ul>
+                                <li>
+                                    <p>
+                                        Mathematics
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Bussiness Study
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Architecture
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <h5>Categories</h5>
+                            <ul>
+                                <li>
+                                    <p>All Courses</p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Data Science
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Digital Marketing
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Voice Over
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Storytelling
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Working Hours</h5>
+                        <p>People from around the world learnig together</p>
+                        <p>Mon-Wed :- 10am - 4pm</p>
+                        <p>Thursday :- 10am - 1pm </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-2 ml-2 mr-2 d-flex justify-content-center">
-                <div>
-                    <h5>Categories</h5>
-                    <ul>
-                        <li>
-                            <p>All Courses</p>
-                        </li>
-                        <li>
-                            <p>
-                                Data Science
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Digital Marketing
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Voice Over
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Storytelling
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col">
-                <h5>Working Hours</h5>
-                <p>People from around the world learnig together</p>
-                <p>Mon-Wed :- 10am - 4pm</p>
-                <p>Thursday :- 10am - 1pm </p>
             </div>
 
         </div>
