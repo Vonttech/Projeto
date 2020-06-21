@@ -6,7 +6,6 @@
 body {
     font-family: Poppins;
     color: white;
-    overflow-x: hidden;
 }
 
 a {
@@ -57,6 +56,19 @@ a {
 
 #header-form {
     width: 100%;
+}
+
+.form-group label{
+    font-size: x-small;
+}
+
+@media only screen and (max-width: 800px) {
+    .eusitorCenter {
+        margin-left: 120px;
+    }
+    .loginSearch {
+        margin-left: 30px;
+    }
 }
 
 #header-searchLogIn {
