@@ -35,6 +35,11 @@ a {
     text-transform: capitalize;
 }
 
+#navbarNavAltMarkup, #navbarNavAltMarkup2{
+    font-size: small;
+    text-transform: capitalize;
+}
+
 #header-menuPages li a {
     font-size: 12px;
     text-transform: capitalize;
