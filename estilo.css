@@ -44,6 +44,10 @@ header ul li a:hover {
     color: #0eb582;
 }
 
+#header-applyNow button:hover {
+    background: #4a90a5;
+}
+
 #navbarNavAltMarkup, #navbarNavAltMarkup2 {
     font-size: small;
     text-transform: capitalize;
@@ -106,9 +110,13 @@ header ul li a:hover {
     width: 120px;
 }
 
-#header-btnSearch:active {
+#header-btnSearch:focus {
     background-color: white;
     color: #0eb582;
+}
+
+#header-btnSearch:hover{
+    background: #4a90a5;
 }
 
 #departament-menu {
@@ -131,6 +139,10 @@ header ul li a:hover {
     background: none;
     padding: 0px;
     color: white;
+}
+
+#searchIcon:hover, #shopIcon:hover {
+    color: #0eb582;
 }
 
 #plusIcon i, #searchIcon i, #shopIcon i {
@@ -197,6 +209,11 @@ header ul li a:hover {
     background: #2c4275;
 }
 
+#startTrial:hover {
+    background: #4a90a5;
+    ;
+}
+
 #viewCourses {
     border-radius: 3px;
     background-color: white;
@@ -208,6 +225,10 @@ header ul li a:hover {
 
 #viewCourses:focus {
     background: #2c4275;
+}
+
+#viewCourses:hover {
+    background: #4a90a5;
 }
 
 @media only screen and (max-width: 450px) {
@@ -361,11 +382,17 @@ ul {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-#formFloat button{
+
+#formFloat button {
     background: #28ac3e;
 }
-#formFloat button:focus{
+
+#formFloat button:focus {
     background: #1e2e53;
+}
+
+#formFloat button:hover {
+    background: #4a90a5;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -390,6 +417,26 @@ ul {
         font-size: medium;
     }
 }
+
+@media only screen and (min-width: 600px) {
+    #catalog {
+        margin-left: 3px;
+    }
+    #aboutVideo{
+        margin-left: 100px;
+    }
+
+    #logoArea{
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #logoArea{
+        margin-left: 330px;
+    }
+}
+
 
 /*About area*/
 
@@ -418,6 +465,10 @@ ul {
     font-size: small;
     text-transform: capitalize;
     color: #0eb582;
+}
+
+#aboutArea button:hover {
+    background: #4a90a5;
 }
 
 #aboutVideo {
@@ -532,6 +583,10 @@ ul {
     font-weight: bold;
 }
 
+#card-upcomingEvent button:hover {
+    background: #4a90a5;
+}
+
 .leftArrow i, .rightArrow i {
     border-radius: 20px;
     color: #0eb582;
@@ -546,6 +601,10 @@ ul {
     font-size: 30px;
     background: white;
     padding: 2px;
+}
+
+.leftArrow i:hover, .rightArrow i:hover{
+    background: #4a90a5;
 }
 
 @media only screen and (max-width: 760px) {
@@ -605,6 +664,10 @@ ul {
     font-size: x-small;
 }
 
+#newsArea button:focus{
+    background: #4a90a5;
+}
+
 #newsArea .activeImage {
     background: url('imgs/8.jpg') no-repeat;
     background-size: cover;
@@ -618,7 +681,7 @@ ul {
 }
 
 @media only screen and (max-width: 450px) {
-    #newsArea p, #newsArea h4 {
+    #newsArea h4 {
         margin-left: -50px;
         font-size: medium;
     }
@@ -699,5 +762,11 @@ ul {
     #logoArea img {
         width: 100%;
         margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #lastLinks a{
+        font-size: 10px;
     }
 }
