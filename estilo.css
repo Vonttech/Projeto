@@ -379,6 +379,12 @@ ul {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    #coursesArea h3 {
+        font-size: medium;
+    }
+}
+
 /*About area*/
 
 #aboutArea {
@@ -536,6 +542,12 @@ ul {
     padding: 2px;
 }
 
+@media only screen and (max-width: 760px) {
+    #upcomingArea h4 {
+        font-size: large;
+    }
+}
+
 /*NEWS AREA*/
 
 #newsArea p {
@@ -593,6 +605,13 @@ ul {
 @media only screen and (max-width: 450px) {
     #newsArea p, #newsArea h4 {
         margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #newsArea ul li p {
+        font-size: xx-small;
+        margin: 10px;
     }
 }
 
