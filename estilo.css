@@ -40,21 +40,6 @@ a {
     text-transform: capitalize;
 }
 
-#header-menuPages li a {
-    font-size: 12px;
-    text-transform: capitalize;
-}
-
-#header-social-menu li a {
-    padding: 0px 3px;
-}
-
-#header-social-menu i {
-    margin: auto 3px;
-    font-size: 12px;
-    color: white;
-}
-
 #header-form {
     width: 100%;
 }
@@ -70,13 +55,6 @@ a {
     .loginSearch {
         margin-left: 30px;
     }
-}
-
-#header-searchLogIn {
-    margin-left: 40px;
-    font-size: 0.8em;
-    color: #ffffff;
-    text-transform: capitalize;
 }
 
 #header-btnCategories {
@@ -119,12 +97,6 @@ a {
     background: #273c6b;
 }
 
-#list-departament li a {
-    padding-left: 36px;
-    text-transform: capitalize;
-    font-size: 12px;
-}
-
 #plusIcon i, #searchIcon i, #shopIcon i {
     background: #83859e;
     border-radius: 50%;
@@ -142,15 +114,6 @@ a {
     background-size: cover;
     height: 600px;
     padding-top: 110px;
-}
-
-.shading {
-    color: rgb(0, 0, 0);
-    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.349), 1px -1px 0 rgba(255, 255, 255, 0.466), -1px 1px 0 rgba(255, 255, 255, 0.479), 1px 1px 0 rgba(255, 255, 255, 0.452);
-}
-
-#sliderArea-desc {
-    font-size: x-small;
 }
 
 #startTrial {
@@ -172,14 +135,9 @@ a {
 }
 
 /*COURSES AREA*/
-
 #coursesArea {
     background: url('imgs/courses_bg.png') no-repeat center;
     background-size: cover;
-}
-
-.courseName {
-    font-size: x-small;
 }
 
 #courseDashboard {
@@ -362,10 +320,6 @@ ul {
     margin-bottom: 100px;
 }
 
-#player {
-    font-size: xx-large;
-}
-
 /*TEAM AREA*/
 
 #membersArea p {
@@ -382,7 +336,6 @@ ul {
 #labelTeachers {
     background: #0eb582;
     border-radius: 5px;
-    padding: ;
 }
 
 .card-body h5 {
