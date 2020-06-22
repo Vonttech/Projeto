@@ -361,6 +361,12 @@ ul {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+#formFloat button{
+    background: #28ac3e;
+}
+#formFloat button:focus{
+    background: #1e2e53;
+}
 
 @media only screen and (max-width: 1024px) {
     article {
