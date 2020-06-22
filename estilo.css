@@ -44,7 +44,7 @@ a {
     width: 100%;
 }
 
-.form-group label{
+.form-group label {
     font-size: x-small;
 }
 
@@ -84,13 +84,12 @@ a {
 }
 
 #header-btnSearch {
-    border-radius: 0px 3px 3px 0px;
     background-color: #0eb582;
     border: none;
     font-size: small;
     text-transform: capitalize;
     color: white;
-    width: 100%;
+    width: 120px;
 }
 
 #departament-menu {
@@ -107,6 +106,17 @@ a {
     margin-left: -30px;
 }
 
+@media only screen and (max-width: 400px){
+    div.ajusteSearch input{
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .ajusteUlNAV{
+        margin-right: 50px;
+    }
+}
 /*SLIDER AREA*/
 
 #sliderArea {
@@ -135,6 +145,7 @@ a {
 }
 
 /*COURSES AREA*/
+
 #coursesArea {
     background: url('imgs/courses_bg.png') no-repeat center;
     background-size: cover;
@@ -282,6 +293,17 @@ ul {
 @media only screen and (max-width: 900px) {
     article {
         visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #Catalog {
+        width: 300px;
+        margin-left: -50px;
+    }
+    .ajusteCatalog {
+        width: 100%;
+        height: 90px;
     }
 }
 
