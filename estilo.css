@@ -25,7 +25,6 @@ a {
 
 /*HEADER*/
 
-
 header ul li a:hover {
     color: #0eb582;
 }
@@ -211,6 +210,12 @@ header ul li a:hover {
     background: #2c4275;
 }
 
+@media only screen and (max-width: 450px) {
+    #sliderArea {
+        margin-left: -55px;
+    }
+}
+
 /*COURSES AREA*/
 
 #coursesArea {
@@ -227,7 +232,6 @@ header ul li a:hover {
 #courseDashboard p {
     color: #0eb582;
 }
-
 
 #catalog .item {
     margin: 5px;
@@ -358,7 +362,7 @@ ul {
     border-top-right-radius: 8px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
     article {
         visibility: hidden;
     }
@@ -417,6 +421,20 @@ ul {
 #aboutUs-leftCol {
     padding-bottom: 0px;
     margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 450px) {
+    #aboutArea-p, #aboutArea h4, #tustorDesc, #contact, #aboutUs-logo, #aboutUs-p {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #aboutVideo {
+        margin-left: -100px;
+        width: 250px;
+        height: 250px;
+    }
 }
 
 /*TEAM AREA*/
@@ -524,8 +542,6 @@ ul {
     color: #0eb582;
 }
 
-
-
 #newsArea .content-card {
     padding: 5px;
 }
@@ -574,6 +590,12 @@ ul {
     border-radius: 30px;
 }
 
+@media only screen and (max-width: 450px) {
+    #newsArea p, #newsArea h4 {
+        margin-left: -50px;
+    }
+}
+
 /*FOOTER*/
 
 #footer {
@@ -615,4 +637,32 @@ ul {
 
 #lastLinks a:hover {
     color: #0eb582;
+}
+
+@media only screen and (max-width:400px) {
+    #logoArea img {
+        width: 250px;
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width: 405px) {
+    #logoArea img {
+        width: 250px;
+        margin-left: -35px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #logoArea img {
+        width: 100%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #logoArea img {
+        width: 100%;
+        margin-left: 10px;
+    }
 }
