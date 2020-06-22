@@ -25,6 +25,14 @@ a {
 
 /*HEADER*/
 
+#eusitor {
+    border-right: ;
+}
+
+header ul li a:hover {
+    color: #0eb582;
+}
+
 #header-applyNow button {
     border-radius: 3px;
     background-color: #0eb582;
@@ -33,6 +41,11 @@ a {
     font-size: small;
     padding: 5px 10px;
     text-transform: capitalize;
+}
+
+#header-applyNow button:focus {
+    background: white;
+    color: #0eb582;
 }
 
 #navbarNavAltMarkup, #navbarNavAltMarkup2 {
@@ -69,6 +82,11 @@ a {
     padding: 12px 20px;
 }
 
+#header-btnCategories:active {
+    color: #5b5e7e;
+    background: white;
+}
+
 #header-inputSearch {
     border-radius: 3px 0px 0px 3px;
     background-color: #5b5e7e;
@@ -92,8 +110,31 @@ a {
     width: 120px;
 }
 
+#header-btnSearch:active {
+    background-color: white;
+    color: #0eb582;
+}
+
 #departament-menu {
     background: #273c6b;
+}
+
+#departament-menu a:hover {
+    color: #0eb582;
+}
+
+#searchIcon, #shopIcon {
+    border: none;
+    background: none;
+    padding: 0px;
+    color: white;
+}
+
+#searchIcon:focus, #shopIcon:focus {
+    border: none;
+    background: none;
+    padding: 0px;
+    color: white;
 }
 
 #plusIcon i, #searchIcon i, #shopIcon i {
@@ -106,17 +147,38 @@ a {
     margin-left: -30px;
 }
 
-@media only screen and (max-width: 400px){
-    div.ajusteSearch input{
+#searchModal {
+    width: 100%;
+}
+
+#modalSearch {
+    background: #0eb582;
+    color: rgb(255, 255, 255);
+}
+
+#modalSearch:focus {
+    background: #1e2e53;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    #searchModal {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div.ajusteSearch input {
         margin-left: -50px;
     }
 }
 
-@media only screen and (max-width: 800px){
-    .ajusteUlNAV{
+@media only screen and (max-width: 800px) {
+    .ajusteUlNAV {
         margin-right: 50px;
     }
 }
+
 /*SLIDER AREA*/
 
 #sliderArea {
@@ -135,6 +197,10 @@ a {
     color: white;
 }
 
+#startTrial:focus {
+    background: #2c4275;
+}
+
 #viewCourses {
     border-radius: 3px;
     background-color: white;
@@ -142,6 +208,10 @@ a {
     font-size: small;
     text-transform: capitalize;
     color: #0eb582;
+}
+
+#viewCourses:focus {
+    background: #2c4275;
 }
 
 /*COURSES AREA*/
@@ -160,6 +230,7 @@ a {
 #courseDashboard p {
     color: #0eb582;
 }
+
 
 #catalog .item {
     margin: 5px;
@@ -327,6 +398,15 @@ ul {
     color: white;
 }
 
+#aboutArea button:focus {
+    border-radius: 3px;
+    background-color: white;
+    border: none;
+    font-size: small;
+    text-transform: capitalize;
+    color: #0eb582;
+}
+
 #aboutVideo {
     background: url('imgs/library.jpg') no-repeat center;
     background-size: cover;
@@ -348,6 +428,10 @@ ul {
     color: #0eb582;
 }
 
+#membersArea a:hover i {
+    background: #0ee9a7;
+}
+
 #activeTeacher {
     background: url('imgs/professor2.jpg') no-repeat center;
     background-size: cover;
@@ -362,10 +446,6 @@ ul {
 
 .card-body h5 {
     font-size: 12px;
-}
-
-.card i.iconActive {
-    background: #0ee9a7;
 }
 
 .card i {
@@ -394,7 +474,7 @@ ul {
     font-size: 25px;
 }
 
-#card-upcomingEvent-img {
+.card-upcomingEvent-img {
     width: 200px;
     background: url('imgs/7.jpg') no-repeat center;
     background-size: cover;
@@ -419,18 +499,23 @@ ul {
     font-weight: bold;
 }
 
-#leftArrow i {
-    border-radius: 20px;
-    color: white;
-    font-size: 30px;
+#card-upcomingEvent button:focus {
     background: #0eb582;
-    border: #0eb582 1px solid;
+    color: white;
+    font-weight: bold;
+}
+
+.leftArrow i, .rightArrow i {
+    border-radius: 20px;
+    color: #0eb582;
+    font-size: 30px;
+    background: white;
     padding: 2px;
 }
 
-#rightArrow i {
+.leftArrow i:active, .rightArrow i:active {
     border-radius: 20px;
-    color: #0eb582;
+    color: #1e2e53;
     font-size: 30px;
     background: white;
     padding: 2px;
@@ -442,22 +527,7 @@ ul {
     color: #0eb582;
 }
 
-.leftArrow i {
-    border-radius: 20px;
-    color: white;
-    height: 35px;
-    font-size: 30px;
-    background: #0eb582;
-    border: #0eb582 1px solid;
-    padding: 2px;
-}
 
-.rightArrow i {
-    border-radius: 20px;
-    color: #0eb582;
-    font-size: 30px;
-    padding: 2px;
-}
 
 #newsArea .content-card {
     padding: 5px;
@@ -487,7 +557,7 @@ ul {
     font-size: x-small;
 }
 
-#newsArea button.active {
+#newsArea button:focus {
     background: #0eb582;
     color: white;
     font-weight: bold;
@@ -495,14 +565,14 @@ ul {
     font-size: x-small;
 }
 
-#newsArea #activeImage {
+#newsArea .activeImage {
     background: url('imgs/8.jpg') no-repeat;
     background-size: cover;
     height: 111px;
     width: 198px;
 }
 
-#newsArea #activeImage-avatar {
+#newsArea .activeImage-avatar {
     height: 30px;
     border-radius: 30px;
 }
@@ -524,15 +594,28 @@ ul {
     color: white;
 }
 
-#footer ul li p {
+#footer #footerAddressInfo p {
     color: rgb(185, 185, 185);
     margin: 0px;
+}
+
+#footer ul li a {
+    color: rgb(185, 185, 185);
+}
+
+#footer ul li a:hover {
+    color: #0eb582;
 }
 
 #addresBtn {
     font-size: xx-small;
 }
 
-#lastLinks {
+#lastLinks a {
     font: xx-small;
+    color: rgb(185, 185, 185);
+}
+
+#lastLinks a:hover {
+    color: #0eb582;
 }
