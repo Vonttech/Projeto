@@ -548,6 +548,15 @@ ul {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    #upcomingArea #card-upcomingEvent h4, #upcomingArea #card-upcomingEvent button {
+        font-size: x-small;
+    }
+    #upcomingArea #card-upcomingEvent p, #upcomingArea #card-upcomingEvent ul li {
+        font-size: xx-small;
+    }
+}
+
 /*NEWS AREA*/
 
 #newsArea p {
@@ -605,6 +614,7 @@ ul {
 @media only screen and (max-width: 450px) {
     #newsArea p, #newsArea h4 {
         margin-left: -50px;
+        font-size: medium;
     }
 }
 
