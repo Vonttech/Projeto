@@ -61,13 +61,53 @@ header ul li a:hover {
     font-size: x-small;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 410px) {
     .eusitorCenter {
         margin-left: 120px;
     }
-    .loginSearch {
-        margin-left: 30px;
+    .loginSearch .form-group label {
+        margin-left: 40px;
     }
+}
+
+@media only screen and (min-width: 411px) {
+    .eusitorCenter {
+        margin-left: 120px;
+    }
+    .loginSearch .form-group {
+        margin-left: -25px;
+    }
+    .loginSearch .form-group label {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .eusitorCenter {
+        margin-left: 200px;
+    }
+    #header-applyNow {
+        margin-left: -120px;
+    }
+    header .ajusteUlNAV {
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .eusitorCenter {
+        margin-left: 000px;
+    }
+    #header-applyNow {
+        margin-left: 0px;
+    }
+    header .ajusteUlNAV {
+        margin: 0px;
+    }
+    .loginSearch .form-group label {
+        margin-left: 0px;
+    }
+
 }
 
 #header-btnCategories {
@@ -115,7 +155,7 @@ header ul li a:hover {
     color: #0eb582;
 }
 
-#header-btnSearch:hover{
+#header-btnSearch:hover {
     background: #4a90a5;
 }
 
@@ -418,25 +458,29 @@ ul {
     }
 }
 
+
+
 @media only screen and (min-width: 600px) {
     #catalog {
         margin-left: 3px;
     }
-    #aboutVideo{
+    #aboutVideo {
         margin-left: 100px;
     }
-
-    #logoArea{
+    #logoArea {
         margin-left: 190px;
     }
 }
-
-@media only screen and (min-width: 1024px) {
-    #logoArea{
+@media only screen and (min-width: 1020px) {
+    #logoArea {
+        margin-left: 250px;
+    }
+}
+@media only screen and (min-width: 1030px) {
+    #logoArea {
         margin-left: 330px;
     }
 }
-
 
 /*About area*/
 
@@ -603,7 +647,7 @@ ul {
     padding: 2px;
 }
 
-.leftArrow i:hover, .rightArrow i:hover{
+.leftArrow i:hover, .rightArrow i:hover {
     background: #4a90a5;
 }
 
@@ -664,7 +708,7 @@ ul {
     font-size: x-small;
 }
 
-#newsArea button:focus{
+#newsArea button:focus {
     background: #4a90a5;
 }
 
@@ -766,7 +810,7 @@ ul {
 }
 
 @media only screen and (min-width: 600px) {
-    #lastLinks a{
+    #lastLinks a {
         font-size: 10px;
     }
 }
